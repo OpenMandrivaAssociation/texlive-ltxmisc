@@ -1,3 +1,9 @@
+# revision 21927
+# category Package
+# catalog-ctan /macros/latex/contrib/misc
+# catalog-date 2009-01-16 15:12:56 +0100
+# catalog-license collection
+# catalog-version undef
 Name:		texlive-ltxmisc
 Version:	20090116
 Release:	1
@@ -43,6 +49,7 @@ TeXLive ltxmisc package.
 %{_texmfdistdir}/tex/latex/ltxmisc/thrmappendix.sty
 %{_texmfdistdir}/tex/latex/ltxmisc/topcapt.sty
 %{_texmfdistdir}/tex/latex/ltxmisc/vrbexin.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ TeXLive ltxmisc package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
