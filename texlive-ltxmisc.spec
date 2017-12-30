@@ -5,8 +5,8 @@
 # catalog-license collection
 # catalog-version undef
 Name:		texlive-ltxmisc
-Version:	20090116
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Miscellaneous LaTeX packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc
