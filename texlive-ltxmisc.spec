@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ltxmisc
 Version:	20180303
-Release:	2
+Release:	3
 Summary:	Miscellaneous LaTeX packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc
