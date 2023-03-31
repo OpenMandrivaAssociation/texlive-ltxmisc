@@ -1,6 +1,6 @@
 Name:		texlive-ltxmisc
 Version:	21927
-Release:	1
+Release:	2
 Summary:	Miscellaneous LaTeX packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc
