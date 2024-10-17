@@ -3,7 +3,7 @@ Version:	21927
 Release:	2
 Summary:	Miscellaneous LaTeX packages, etc
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/misc
 License:	COLLECTION
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltxmisc.r%{version}.tar.xz
 BuildArch:	noarch
